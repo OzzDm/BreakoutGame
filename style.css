@@ -1,0 +1,30 @@
+.grid{
+    position: relative;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px ;
+}
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+}
+.board{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color:black;
+}
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color:brown;
+    border-radius: 50%;
+}
+button.start{
+    background-color: rgb(58, 220, 40);
+    color: white;
+    cursor: pointer;
+}
